@@ -80,6 +80,19 @@ Register
 				<form method="POST" action="" novalidate>
 					{% csrf_token%}
 					{% include "includes/form.html" %}
+					<label >Please Select Trade Role</label><br/>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Seller">
+						<label class="form-check-label" for="inlineRadio1">Seller</label>
+					  </div>
+					  <div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Buyer">
+						<label class="form-check-label" for="inlineRadio2">Buyer</label>
+					  </div>
+					  <div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="Both" >
+						<label class="form-check-label" for="inlineRadio3">Both </label>
+					  </div>
 					<div class="d-flex justify-content-center mt-3 login_container">
 						<input class="btn login_btn" type="submit" value="Register Account">
 					</div>
