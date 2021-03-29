@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'e_commerce',
     'products',
     'users',
+    'dashbordClient',
     'widget_tweaks',
     'fontawesome-free',
     'phone_field',
