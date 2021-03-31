@@ -1,10 +1,10 @@
-from products.models import Product
+from dashbordClient.models import Productt
 from django.shortcuts import render
 
 # Create your views here.
 
 
 def home(request):
-    products = Product.objects.all()
+    products = Productt.objects.all()
     context = {'products': products}
     return render(request, 'home.html', context)

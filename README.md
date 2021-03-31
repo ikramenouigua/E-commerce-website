@@ -5,6 +5,8 @@
 
 ## Ikram Tasks
 - [ ] Liaison avec compte paypal ou carte internationale pour payment
+- [X] Footer
+- dashbord seller
 ## Houda Tasks
 - [ ] Django Learning
 ## Khadija Tasks
@@ -13,7 +15,7 @@
 - [X] NavBar Visiteur
 - [X] Database management & static Files
 - [X] Checkout Form : Bootstrap
-- [ ] Footer & NavBar Client
+- [ ] NavBar Client
 ## Databases
   #### Admin
     - name
