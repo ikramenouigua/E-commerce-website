@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from .models import Productt
 from .forms import FormProduct
 
@@ -24,7 +24,7 @@ def deleteProduct(request, pk):
 	product = Productt.objects.get(id=pk)
 	if request.method == "POST":
 		product.delete()
-		return redirect('/')
+		return redirect('/prod')
 
 	context = {'item':product}
 	return render(request, 'product', context)
@@ -38,7 +38,7 @@ def updateProduct(request, pk):
 		form = FormProduct(request.POST, instance=product)
 		if form.is_valid():
 			form.save()
-			return redirect('/')
+			return redirect('/prod')
 
 	context = {'form':form}
 	return render(request, 'product.html', context)

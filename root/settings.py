@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'users',
     'account',
     'dashbordClient',
+    'django_filters',
     'widget_tweaks',
     'fontawesome-free',
     'phone_field',

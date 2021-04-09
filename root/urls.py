@@ -8,5 +8,6 @@ urlpatterns = [
     path('', include("e_commerce.urls")),
     path('', include("users.urls")),
     path('', include("products.urls")),
-     path('', include("dashbordClient.urls")),
+    path('', include("dashbordClient.urls")),
+    path('', include("account.urls")),
 ]
