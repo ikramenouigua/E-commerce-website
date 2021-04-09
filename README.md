@@ -3,19 +3,7 @@
 ## Website Requirements
 - [ ] Responsive Website (mobile-friendly)
 
-## Ikram Tasks
-- [ ] Liaison avec compte paypal ou carte internationale pour payment
-- [X] Footer
-- dashbord seller
-## Houda Tasks
-- [ ] Django Learning
-## Khadija Tasks
-- [ ] Django Learning
-## Hakim Tasks
-- [X] NavBar Visiteur
-- [X] Database management & static Files
-- [X] Checkout Form : Bootstrap
-- [ ] NavBar Client
+
 ## Databases
   #### Admin
     - name
